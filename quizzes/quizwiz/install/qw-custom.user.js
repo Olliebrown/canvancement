@@ -14,19 +14,19 @@
   var config = {
     // Regrading methods may be 'disabled', 'enabled', or 'autorun'
     'methods' : {
-      'unanswered' : 'disabled',
+      'unanswered' : 'enabled',
       'full_points' : 'disabled',
       'ma_allnone' : 'disabled',
-      'ma_correct' : 'disabled',
+      'ma_correct' : 'autorun',
       'ma_difference' : 'disabled',
       'fill_in_blanks' : 'disabled',
       'dropdowns' : 'disabled'
     },
     // Speed enhancements may be true or false
     'autoExpandComments' : false,
-    'duplicateQuestionHeader' : false,
+    'duplicateQuestionHeader' : true,
     'showButtonCounts' : true,
-    'nextAfterUpdate' : false,
+    'nextAfterUpdate' : true,
     'nextAfterComment' : false,
     'nextAfterRubric' : false,
     'nextRubricExpanded' : false
